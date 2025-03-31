@@ -1,4 +1,4 @@
-#include QMK_KEYBOARD_H
+#QMK_KEYBOARDinclude QMK_KEYBOARD_H
 #include "version.h"
 
 #define BASE 0 // default layer
