@@ -1,6 +1,6 @@
 {
-    "keyboard_name": "Dactyl CC",
-    "manufacturer": "mjohns",
+    "keyboard_name": "Dactyl_CC",
+    "manufacturer": "chase",
     "url": "https://github.com/mjohns/dactyl-cc",
     "maintainer": "qmk",
     "usb": {
@@ -9,12 +9,13 @@
         "device_version": "1.0.0"
     },
     "features": {
+        // 通过按键进入 bootloader 模式
         "bootmagic": true,
-        "mousekey": true,
         "extrakey": true,
+        // 通过按键控制鼠标
+        "mousekey": false,
         "console": false,
-        "command": true,
-        "nkro": false
+        "command": false
     },
     "matrix_pins": {
         // 第 0 列 到 第 5 列

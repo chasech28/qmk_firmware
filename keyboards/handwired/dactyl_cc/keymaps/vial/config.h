@@ -10,11 +10,11 @@
 #define PERMISSIVE_HOLD
 
 /* mouse config */
-#define MOUSEKEY_DELAY          0
+// #define MOUSEKEY_DELAY          0
 // Lowering MOUSEKEY_INTERVAL raises the cursor speed significantly, you may want to lower MOUSEKEY_MAX_SPEED (default: 10)
-#define MOUSEKEY_INTERVAL       20
-#define MOUSEKEY_MAX_SPEED       7
-#define MOUSEKEY_WHEEL_DELAY 0
+// #define MOUSEKEY_INTERVAL       20
+// #define MOUSEKEY_MAX_SPEED       7
+// #define MOUSEKEY_WHEEL_DELAY 0
 
 /**
  设置图层切换按键次数
