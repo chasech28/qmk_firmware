@@ -1,6 +1,6 @@
 {
-    "keyboard_name": "Dactyl CC",
-    "manufacturer": "mjohns",
+    "keyboard_name": "Dactyl_CC",
+    "manufacturer": "chase",
     "url": "https://github.com/mjohns/dactyl-cc",
     "maintainer": "qmk",
     "usb": {
