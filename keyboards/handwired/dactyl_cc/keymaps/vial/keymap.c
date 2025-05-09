@@ -39,7 +39,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                                   KC_N,    KC_M,    KC_COMM, KC_DOT, KC_SLSH, KC_RSFT,
                                   KC_MINS, KC_EQL, KC_LBRC, KC_RBRC,
         KC_HOME, KC_RCTL,
-        KC_END, KC_ENT,  KC_SPC,
+        KC_END,  RCTL_T(KC_ENT),  KC_SPC,
         KC_RALT
     ),
     [_CODE] = LAYOUT(
@@ -60,7 +60,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                                   _______, KC_F9,   KC_F10,  KC_F11,  KC_F12,  _______,
                                   _______, _______, _______, _______,
         KC_HOME, KC_RCTL,
-        KC_END,  KC_ENT,  KC_SPC,
+        KC_END,  RCTL_T(KC_ENT),  KC_SPC,
         KC_RALT
     ),
 };
